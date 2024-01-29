@@ -1,0 +1,46 @@
+.img{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+
+    
+    
+
+    
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.img img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Path: src/Components/Navbar/navbar.css */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

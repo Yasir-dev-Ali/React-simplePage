@@ -1,0 +1,84 @@
+.hero{
+    background: url('https://www.pexels.com/video/light-city-road-dawn-19155115');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #221b1b;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* text-shadow: 0 0 10px #161414; */
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+
+
+
+
+}
+.hero-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+
+}
+.hero h1{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.hero h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 10px;
+    color: #000;
+    width: 40%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.hero button{
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+}
+.hero button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+.hero button a{
+    text-decoration: none;
+    color: #000;
+}
+.hero button a:hover{
+    color: #000;
+}
+.hero .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 20px;
+}
+.hero .social-links li{
+    font-size: 2rem;
+}
+
